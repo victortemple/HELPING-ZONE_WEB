@@ -1,0 +1,63 @@
+@media(max-width: 1024px){
+    .container, .container-lg, .container-md, .container-sm{
+        max-width: 1027px !important;
+    }
+
+    .abt-det-flex1,
+    .card-con{
+        width: 90%;
+    }
+
+    .left{
+        left: 34%;
+    }
+}
+
+@media(max-width: 768px){
+    .abt-hero-sec-text-p{
+        width: 90%;
+    }
+
+    .abt-det-flex1{
+        flex-direction: column;
+    }
+
+    .abt-det-img-con {
+        width: 50%;
+    }
+
+    .abt-det-text{
+        width: 100%;
+    }
+
+    .card-con{
+        width: 58%;
+        flex-direction: column;
+        overflow-x: none;
+        overflow-y: scroll;
+        height: 49.8rem;
+    }
+
+    .abt-story-text p{
+        width: 100%;
+    }
+
+    .officials-con2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3.2rem;
+    }
+
+    .border-left{
+       border-left: none;
+    }
+
+    .border-right{
+        border-radius: 1.8rem;
+       border-top: 2rem solid #003e755a;
+       border-bottom: 2rem solid #003e755a;
+       border-right: none;
+       backdrop-filter: blur(2px);
+    }
+
+}

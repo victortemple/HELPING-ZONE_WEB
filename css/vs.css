@@ -1,0 +1,75 @@
+/*colors for the websit theme*/
+/* color:
+#f03c1d 
+#003e75
+*/
+/*colors for the websit theme*/
+
+/*codes for the volunteer/sponsor page hero section*/
+
+.vs-hero-sec{
+    background-image: linear-gradient(rgba(0, 62, 117, 0.83), rgba(0, 62, 117, 0.764)),
+ url(../img/vs_bg.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+.vs-hero-sec-text{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4.8rem;
+}
+
+.vs-hero-sec-text-h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 4.4rem;
+    color: #fff;
+}
+
+.vs-hero-sec-text-p{
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    width: 65%;
+}
+
+.vs-btn:link,
+.vs-btn:visited{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    background-color: #f03c1d;
+    border: 2px solid #f03c1d;
+    letter-spacing: 0.8px;
+    transition: 0.5s;
+}
+
+.vs-btn:hover,
+.vs-btn:active{
+    background: transparent;
+    color: #f03c1d;
+}
+
+.vs-hero-sec-btn{
+    position: relative;
+    left: 85%;
+    margin-bottom: 3.2rem;
+}
+
+.vs-btn-con{
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+}
+
+/*codes for the volunteer/sponsor page hero section*/
+
+
+/*codes for the mobile responsive of volunteer/sponsor page hero section*/
+
+@media(max-width:)
+
+/*codes for the mobile responsive of volunteer/sponsor page hero section*/
+

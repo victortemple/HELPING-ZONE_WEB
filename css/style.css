@@ -1,0 +1,265 @@
+/* the color teme for the webpage designgs */
+/* color:
+#f03c1d 
+#003e75
+*/
+/********************************************/
+
+
+.hero-s{
+background-image: linear-gradient(rgba(0, 62, 117, 0.745), rgba(0, 62, 117, 0.652)),
+ url(../img/bg-hero_s.jpg);
+background-size: cover;
+background-position: center;
+padding-bottom: 8.8rem;
+border-bottom-right-radius: 1.8rem;
+border-bottom-left-radius: 1.8rem;
+padding-bottom: 12.8rem;
+}
+
+/*for the hero section texts-code*/
+
+
+.hr-text{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 4.4rem;
+}
+
+.hr-text h6{
+    text-align: center;
+}
+
+ h6{
+    color: #f03c1d;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.hr-header-text{
+    color: #fff;
+    font-size: 4.4rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+
+.hr-p-text{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gr-btn:link,
+.gr-btn:visited{
+    color: #fff;
+    background-color: #f03c1d;
+    border: 2px solid #f03c1d;
+    padding: 1rem;
+}
+
+.gr-btn:hover,
+.gr-btn:active{
+    transition: 0.5s;
+    color: #f03c1d;
+    background: none;
+}
+
+
+/********************************/
+
+
+/*codes for the hero section card*/
+
+.rel{
+    position: relative;
+}
+
+.hr-card{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+    position: absolute;
+    top: 118%;
+    left: 10%;
+    right: 50%;
+    padding: 3rem;
+    border: 7px solid #003e75;
+    border-radius: 1.8rem;
+    backdrop-filter: blur(4px);
+    box-shadow: 1px 9px 18px 6px #84848478;
+}
+
+.hr-card-text{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 50%;
+}
+
+.hr-card-text-header-text{
+    color: #003e75;
+    font-size: 3.2rem;
+    text-transform: capitalize;font-weight: 700;
+}   
+
+.hr-card-p{
+    color: #003e75;
+    font-size: 1.8rem;
+}
+
+.hr-card-card2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.8rem;
+    width: 31%;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1.8rem;
+    box-shadow: 1px 9px 18px 6px #84848478;
+}
+
+.hr-card-card2 p{
+    color: #f03c1d;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/********************************/
+
+
+/*all of sec-section codes*/
+
+.vid{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 24.8rem;
+   
+}
+
+#hr-vid{
+    border-radius: 2.4rem;
+    overflow: hidden;
+    height: 50rem;
+    width: 100%;
+    margin-bottom: 5.8rem;
+}
+
+.sec-section-flex{
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3.8rem;
+}
+
+.sec-section-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sec-section-card h3{
+    font-size: 2.8rem;
+    color: #003e75;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.sec-section-card p{
+    font-size: 1.6rem;
+    color: #003e75;
+}
+
+.sec-section-icons{
+    color: #003e75;
+}
+
+/**************************/
+
+
+/*codes for the second flex container*/
+
+.sec-section-flex2{
+    display: flex;
+    gap: 3.2rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3.8rem;
+}
+
+.sec-section-card2{
+    padding: 2.4rem;
+    width: 50%;
+}
+
+.s-s-card2-crd1{
+    background-color: #f03c1d;
+    border-radius: 1.8rem;
+}
+
+.s-s-card2-crd2{
+    background-color: #003e75;
+    border-radius: 1.8rem;
+}
+
+.s-s-card2-crd1 span{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #003e75;
+}
+
+.s-s-card2-crd2 span{
+    color: #f03c1d;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.s-s-card2-crd1 h4,
+.s-s-card2-crd2 h4{
+    text-transform: capitalize;
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.s-s-card2-crd1 a:link,
+.s-s-card2-crd1 a:visited{
+    border: 2px solid #003e75;
+    background-color: #003e75;
+    color: #fff;
+}
+
+.s-s-card2-crd1 a:hover,
+.s-s-card2-crd1 a:active{
+    transition: 0.5s;
+   background: transparent;
+   color: #003e75;
+}
+
+.s-s-card2-crd2 a:link,
+.s-s-card2-crd2 a:visited{
+    border: 2px solid #f03c1d;
+    background-color: #f03c1d;
+    color: #fff;
+}
+
+.s-s-card2-crd2 a:hover,
+.s-s-card2-crd2 a:active{
+    transition: 0.5s;
+   background: transparent;
+   color: #f03c1d;
+}
+
+/**********************************/

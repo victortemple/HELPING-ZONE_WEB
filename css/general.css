@@ -1,0 +1,217 @@
+/* the color teme for the webpage designgs */
+/* color:
+#f03c1d 
+#003e75
+*/
+/********************************************/
+
+html{
+    font-size: 62%;
+ }
+ 
+ body{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.4rem;
+ }
+
+ body::-webkit-scrollbar{
+   display: none;
+ }
+
+
+
+ /*for the header nav-codes_designs*/
+ header{
+    width: 90%;
+    margin: 0 auto;
+   }
+
+   .bg-dark{
+      background: transparent !important;
+   }
+
+   .navbar-brand{
+      width: 7.8rem;
+   }
+
+   .active:after{
+      content: '';
+      width: 100%;
+      height: 3.5px;
+      background: #f03c1d;
+      display: block;
+      margin: auto;
+      border-radius: 1.8rem;
+      color: #fff;
+      margin-top: 5px;
+      font-size: 1.6rem;
+   }
+   .active:hover::after{
+      transition: 0.5s;
+      width: 0;
+   }
+
+   .active,
+   .hover{
+     
+      font-size: 1.6rem;
+   }
+
+   ul,
+   li{
+      list-style: none;
+   }
+
+   .hover:after{
+      content: '';
+      width: 0;
+      height: 3.5px;
+      background: #f03c1d;
+      display: block;
+      margin: auto;
+      border-radius: 1.8rem;
+      transition: 0.5s;
+      color: #fff;
+      margin-top: 5px;
+      font-size: 1.6rem;
+   }
+
+   /*for all btn-code*/
+.btn{
+   padding: 1rem;
+   text-transform: capitalize;
+   font-size: 1.8rem;
+   border-radius: 3.2rem;
+}
+   /*for all btn-code*/
+
+   i{
+      font-size: 3.8rem;
+   }
+
+   .hover:hover::after{
+      width: 100%;
+   }
+
+   .justify-content-end{
+      gap: 1.8rem;
+   }
+   
+/*for the header nav-codes_designs*/
+
+a{
+   text-decoration: none;
+}
+
+/*code for the footer*/
+   footer{
+      background-color: #003e75;
+      padding: 5.8rem 0;
+      border-top-right-radius: 1.8rem;
+      border-top-left-radius: 1.8rem;
+   }
+
+   .footer-flex{
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   .footer-p{
+      font-size: 2.8rem;
+      font-weight: 700;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+      width: 50%;
+      letter-spacing: 1px;
+   }
+
+   .footer-cnt{
+      display: flex;
+      gap: 2.4rem;
+   }
+
+   .footer-cnt p{
+      font-size: 1.6rem;
+      color: #fff;
+   }
+
+   .footer-icon{
+      font-size: 1.8rem;
+      margin-left: 1.2rem;
+   }
+
+   .copy-right{
+      font-size: 1.2rem;
+      color: #ffffff43;
+      text-align: center;
+      text-transform: capitalize;
+   }
+/********************/
+
+
+
+@media(max-width: 768px){
+
+/* for the mobile menu button */
+    
+.offcanvas{
+   background: transparent;
+   backdrop-filter: blur(4px);
+}
+
+.hover,
+.active{
+   font-size: 1.8rem;
+}
+
+.container{
+   max-width: 776px !important;
+}
+
+.navbar-toggler{
+   width: 4.4rem !important;
+   height: 4.4rem !important;
+}
+
+.offcanvas-title{
+   color: #f03c1d !important;
+}
+
+.mr-bg-darkk{
+   color: #f03c1d !important;
+   background-color: #003e7547 !important;
+   
+}
+
+
+.offcanvas.show{
+   background: transparent !important;
+   backdrop-filter: blur(2px);
+}
+
+.active, .hover{
+   font-size: 2.4rem;
+}
+   /* for the mobile menu button */
+}
+
+@media(max-width: 425px){
+   html{
+      font-size: 48% !important;
+  }
+
+  .btn{
+   font-size: 1.6rem !important;
+  }
+
+  .active, .hover{
+   font-size: 1.6rem !important;
+  }
+}

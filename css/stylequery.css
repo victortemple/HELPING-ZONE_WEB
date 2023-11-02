@@ -1,0 +1,180 @@
+@media(max-width: 1024px){
+
+    .hr-card{
+        width: 90%;
+        left: 5%;
+    }
+
+    .vid{
+        margin-top: 32.8rem;
+    }
+
+    .sec-section-flex2{
+        flex-direction: column;
+    }
+
+    .sec-section-card2{
+        width: 68%;
+        margin: 0 auto;
+    }
+
+    .footer-p{
+        width: 62% !important;
+    }
+}
+
+@media(max-width: 768px){
+
+    
+.hr-p-text{
+    width: 100% !important;
+    font-size: 1.8rem !important;
+}
+
+.hr-btn:link, .hr-btn:visited{
+    width: 35% !important;
+}
+
+.hr-card{
+    flex-direction: column;
+}
+
+.hr-card-text{
+    width: 90%;
+}
+
+.hr-card-card2{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.vid{
+    width: 100%;
+    margin-top: 46.8rem;
+}
+
+.sec-section-flex{
+    flex-direction: column;
+    width: 100%;
+}
+
+.sec-section-card2 {
+    width: 85%;
+}
+
+.footer-p{
+    width: 82% !important;
+}
+
+.footer-cnt p{
+    font-size: 1.2rem !important;
+}
+
+ /* for the mobile menu button */
+    
+ .offcanvas{
+    background: transparent;
+    backdrop-filter: blur(4px);
+}
+
+.hover,
+.active{
+    font-size: 1.8rem;
+}
+
+ .container{
+    max-width: 776px !important;
+ }
+
+ .navbar-toggler{
+    width: 4.4rem !important;
+    height: 4.4rem !important;
+ }
+
+ .offcanvas-title{
+    color: #f03c1d !important;
+ }
+
+ .mr-bg-darkk{
+    color: #f03c1d !important;
+    background-color: #003e7547 !important;
+    
+ }
+
+
+ .offcanvas.show{
+    background: transparent !important;
+    backdrop-filter: blur(2px);
+ }
+ 
+ .active, .hover{
+    font-size: 2.4rem;
+ }
+    /* for the mobile menu button */
+
+}
+
+@media(max-width: 426px){
+    html{
+        font-size: 38% !important;
+    }
+
+    .hr-header-text{
+        font-size: 3.4rem;
+    }
+
+    .hr-p-text{
+        font-size: 1.6rem !important;
+    }
+
+    .hr-card-text {
+        width: 101%;
+    }
+
+    .hr-card-card2 {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .sec-section-card2{
+        width: 100%;
+        margin: 0;
+    }
+
+    .s-s-card2-crd1 h4, .s-s-card2-crd2 h4{
+        font-size: 3.4rem;
+    }
+
+    .footer-p{
+        font-size: 1.8rem !important;
+    }
+
+}
+
+@media(max-width: 376px){
+    .vid{
+        margin-top: 55.8rem !important;
+    }
+}
+
+@media(max-width: 321px){
+    .vid{
+        margin-top: 62.8rem !important;
+    }
+
+    .hr-header-text{
+        font-size: 2.4rem;
+    }
+
+    .hr-p-text{
+        font-size: 1.4rem !important;
+    }
+
+    .hr-card-card2 {
+        width: 100% !important;
+    }
+
+    .footer-p{
+        width: 100% !important;
+    }
+}
