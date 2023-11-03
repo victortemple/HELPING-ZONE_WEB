@@ -199,9 +199,14 @@ a{
 .active, .hover{
    font-size: 2.4rem;
 }
-   /* for the mobile menu button */
+
+.footer-p{
+   width: 76%;
 }
 
+}
+
+/* for the mobile menu button */
 @media(max-width: 425px){
    html{
       font-size: 48% !important;

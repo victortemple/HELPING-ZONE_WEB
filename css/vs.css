@@ -29,7 +29,7 @@ height: 100vh;
 }
 
 .vs-hero-sec-text-p{
-    color: #fff;
+    color: #ffffffdb;
     font-size: 1.8rem;
     text-transform: capitalize;
     width: 65%;
@@ -69,7 +69,9 @@ height: 100vh;
 
 /*codes for the mobile responsive of volunteer/sponsor page hero section*/
 
-@media(max-width:)
+@media(max-width:334px){
+
+}
 
 /*codes for the mobile responsive of volunteer/sponsor page hero section*/
 
