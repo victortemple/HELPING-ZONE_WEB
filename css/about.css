@@ -8,318 +8,70 @@
 /*codes for the about page hero section*/
 
 .abt-hero-sec{
-    background-image: linear-gradient(rgba(0, 62, 117, 0.83), rgba(0, 62, 117, 0.764)),
- url(../img/about_us.jpg);
-background-size: cover;
-background-position: center;
-padding-bottom: 8.8rem;
-border-bottom-right-radius: 1.8rem;
-border-bottom-left-radius: 1.8rem;
-padding-bottom: 12.8rem;
+    background-image: linear-gradient(rgba(0, 62, 117, 0.745), rgba(0, 62, 117, 0.652)),
+    url(../img/about_us.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom-right-radius: 1.8rem;
+    border-bottom-left-radius: 1.8rem;
+    padding-bottom: 9.8rem;
 }
 
 .abt-hero-sec-text{
     width: 90%;
     margin: 0 auto;
-    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 4.4rem;
 }
 
 .abt-hero-sec-text-h2{
-    text-transform: capitalize;
+    color: #fff;
     font-weight: 700;
     font-size: 4.4rem;
-    color: #fff;
 }
 
-.abt-hero-sec-text-p{
-    color: #ffffffdb;
+.abt-hero-sec-text p{
     font-size: 1.8rem;
-    text-transform: capitalize;
-    width: 65%;
+    color: #ffffffdb;
+    width: 80%;
+    margin-bottom: 4.8rem;
 }
 
-.abt-btn:link,
-.abt-btn:visited{
-    color: #fff;
-    font-weight: 600;
-    text-align: center;
-    background-color: #f03c1d;
+.abt-hero-sec-text-btn:link,
+.abt-hero-sec-text-btn:visited{
     border: 2px solid #f03c1d;
-    letter-spacing: 0.8px;
+    color: #fff;
+    background: #f03c1d;
+    width: fit-content;
+    margin-left: 105.8rem;
     transition: 0.5s;
 }
 
-.abt-btn:hover,
-.abt-btn:active{
+.abt-hero-sec-text-btn:hover,
+.abt-hero-sec-text-btn:active{
     background: transparent;
     color: #f03c1d;
 }
 
-.abt-hero-sec-btn{
-    position: relative;
-    left: 85%;
-}
-
-
-
-/*************************************/
-
-/*codes for the about page hero section*/
-
-.abt-det-sec{
-    padding: 6.8rem 0;
-}
-
-.abt-det-flex1{
-    display: flex;
-    width: 74%;
-    margin: 0 auto;
-    gap: 4.4rem;
-}
-
-.abt-det-text span{
-    color: #f03c1d;
-    font-size: 1.6rem;
-    font-weight: 700;
-    text-transform: capitalize;
-}
-
-.abt-det-text{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 169rem;
-    margin: auto 0;
-}
-
-.abt-det-text h3{
-    color: #003e75;
-    text-transform: capitalize;
-    font-size: 2.4rem;
-    font-weight: 700;
-}
-
-.abt-det-text p{
-    color: #003e75;
-    font-size: 1.8rem;
-}
-
-.abt-det-img-con{
-    width: 100%;
-}
-
-.con-fr{
-    margin-top: 4.4rem;
-}
-
-.con-fr h3{
-    font-size: 2.4rem;
-    color: #f03c1d;
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: 700;
-    margin-bottom: 4.4rem;
-}
-
-.card-con{
-    display: flex;
-    width: 68%;
-    margin: 0 auto;
-    gap: 2.4rem;
-    overflow-x: scroll;
-    scrollbar-width: none;
-}
-
-.card-con::-webkit-scrollbar{
-    display: none;
-    overflow-x: hidden;
-}
-
-.card1 span,.card2 span{
-    font-size: 3.2rem;
-    text-transform: capitalize;
-}
-
-.card1{
-    background-color: #003e75;
-    padding: 1rem;
-    border-radius: 1.8rem;
-}
-
-.card2{
-    background-color: #f03c1d;
-    padding: 1rem;
-    border-radius: 1.8rem;
-}
-
-.card1 span,
-.card2 span{
-    color: #fff;
-}
-
-.card-text1 h4{
-    color: #f03c1d;
-    text-transform: capitalize;
-    font-weight: 700;
-    font-size: 2rem;
-}
-
-.card-text2 h4{
-    color: #003e75;
-    text-transform: capitalize;
-    font-weight: 700;
-    font-size: 2rem;
-}
-
-.card-text2 p, 
-.card-text1 p{
-    font-size: 1.4rem;
-    color: #fff;
-    width: 34rem;
-}
-
-.card-text2 a:link,
-.card-text2 a:visited{
-    border: 2px solid #003e75;
-    background-color: #003e75;
-    color: #fff;
-    font-weight: 700;
-    transition: 0.5s;
-}
-
-.card-text2 a:hover,
-.card-text2 a:active{
-   background: transparent;
-   color: #003e75;
-}
-
-.card1, .card2{
-    display: flex;
-    gap: 1.2rem;
-    align-items: flex-start;
-}
-
-.card-text1, .card-text2{
-    margin-top: 1.6rem;
-}
-
-/***************************************/
-
-
-/* codes forour-story-sec*/
-
-.our-story-sec{
-    padding: 9.8rem 0;
-    background-image: linear-gradient(rgba(0, 62, 117, 0.745), rgba(0, 62, 117, 0.652)),
-    url(../img/bg_for\ our\ story.jpg);
-    background-size: cover;
-    background-position: center;
-    border-bottom-right-radius: 1.8rem;
-    border-bottom-left-radius: 1.8rem;
-    border-top-right-radius: 1.8rem;
-    border-top-left-radius: 1.8rem;
-    margin: 4.4rem 0;
-}
-
-.abt-story{
+.abt-snd-sec-text-flex{
     width: 90%;
     margin: 0 auto;
-}
-
-.abt-story-text h3{
-    text-transform: capitalize;
-    text-align: center;
-    color: #f03c1d;
-    font-size: 2.8rem;
-    margin-bottom: 1.2rem;
-}
-
-.abt-story-text p{
-    text-align: center;
-    font-size: 1.8rem;
-    color: #fff;
-    width: 70%;
-    font-weight: 700;
-    margin: 0 auto;
-}
-
-/************************/
-
-/*codes for our officials section*/
-
-
-.our-officials-sec{
-    padding: 9.8rem 0;
-    margin: 4.4rem 0;
-}    
-
-.officials-con2{
     display: flex;
-    gap: 1.2rem;
-    align-items: center;
-    padding: 4.4rem 2.4rem;
-    border-radius: 1.8rem;
-    background-color: rgba(160, 160, 160, 0.307);
-    border-top: 1.8rem solid #f03c1d;
-}
-
-.officials-con{
-    width: 90%;
-    margin: 0 auto;
-}
-
-.officials-con h3{
-    text-transform: capitalize;
-    text-align: center;
-    color: #f03c1d;
-    font-size: 2.8rem;
-    margin-bottom: 2.4rem;
-    font-weight: 700;
-}
-
-.left{
-    text-align: center;
-    position: relative;
-    left: 39%;
+    gap: 1.6rem;
     margin-top: 3.8rem;
 }
 
-.official-img{
-    width: 20%;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-bottom: 1.2rem;
+.abt-snd-sec-text-flex-img{
+    width: 188rem;
 }
 
-.officials-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
+.abt-snd-sec-text-flex-img img{
+    width: 100%;
+    border-top-right-radius: 3.2rem;
+    border-bottom-left-radius: 3.2rem;
+    border-bottom-right-radius: 3.2rem;
 }
 
-.officials-card h4{
-    color: #003e75;
-    font-size: 1.6rem;
-    font-weight: 700;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.officials-card span{
-    font-weight: 700;
-    color: #f03c1d;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 1.8rem;
-}
-
-.border-right{
-    border-right: 2px solid #003e75;
-}
-.border-left{
-    border-left: 2px solid #003e75;
-}
-
-/********************************/
+/*codes for the about page hero section*/

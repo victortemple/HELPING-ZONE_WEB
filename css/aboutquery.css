@@ -1,28 +1,8 @@
 @media(max-width: 1024px){
-    .container, .container-lg, .container-md, .container-sm{
-        max-width: 1027px !important;
+    .abt-hero-sec-text p{
+        width: 100%;
     }
 
-    .abt-det-flex1,
-    .card-con{
-        width: 90%;
-    }
 
-    .left{
-        left: 34%;
-    }
-}
-
-@media(max-width: 768px){
-    .abt-det-flex1{
-        flex-direction: column;
-    }
-
-    .abt-det-img-con {
-        width: 50%;
-    }
-
-    .abt-hero-sec-btn {
-        left: 70%;
-    }
+    
 }
