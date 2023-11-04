@@ -3,6 +3,18 @@
         width: 100%;
     }
 
+    .abt-hero-sec-text-btn:link,
+    .abt-hero-sec-text-btn:visited{
+        margin-left: 55.8rem;
+    }
 
-    
+    .abt-snd-sec-text-flex{
+        flex-direction: column;
+    }
+
+    .abt-snd-sec-text-flex-img{
+        margin: 0;
+        width: 50%;
+    }
+
 }

@@ -54,17 +54,24 @@
     background: transparent;
     color: #f03c1d;
 }
+/*codes for the about page hero section*/
+
+/* codes for the second section for about page */
+.abt-snd-sec{
+    padding-bottom: 9.8rem;
+}
 
 .abt-snd-sec-text-flex{
-    width: 90%;
+    width: 72%;
     margin: 0 auto;
     display: flex;
-    gap: 1.6rem;
+    gap: 3.2rem;
     margin-top: 3.8rem;
 }
 
 .abt-snd-sec-text-flex-img{
-    width: 188rem;
+    width: 40%;
+    margin: auto 0;
 }
 
 .abt-snd-sec-text-flex-img img{
@@ -74,4 +81,205 @@
     border-bottom-right-radius: 3.2rem;
 }
 
-/*codes for the about page hero section*/
+.abt-snd-sec-text-flex-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.abt-snd-sec-text-flex-txt{
+    width: 68rem;
+}
+
+.abt-snd-sec-card-con{
+    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+}
+
+.abt-snd-sec-card-con h3{
+    color: #f03c1d;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3.8rem;
+}
+
+
+.abt-snd-sec-text-flex-txt span{
+    color: #f03c1d;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.abt-snd-sec-text-flex-txt h3{
+    color: #003e75;
+    text-transform: capitalize;
+    font-size: 2.8rem;
+}  
+
+.abt-snd-sec-text-flex-txt p{
+    color: #003e75;
+    font-size: 1.8rem;
+}    
+
+.abt-snd-sec-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.8rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card1,
+.card2{
+    display: flex;
+    gap: 1.2rem;
+    padding: 2.4rem;
+    border-radius: 3.2rem;
+}
+
+.card1{
+    background-color: #f03c1d;
+}
+
+.card2{
+    background-color: #003e75;
+}
+
+.card1 i{
+    color: #003e75;
+    font-size: 3.8rem;
+}
+
+
+.card2 i{
+    color: #f03c1d;
+    font-size: 3.8rem;
+}
+
+.card-txt h4{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.card-txt p{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.snd-sec-btn:link,
+.snd-sec-btn:visited{
+    border: 2px solid #f03c1d;
+    text-align: center;
+    background: #f03c1d;
+    color: #fff;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+
+.snd-sec-btn:hover,
+.snd-sec-btn:active{
+    color: #f03c1d;
+    background: transparent;
+}
+
+/* codes for the second section for about page */
+
+/* codes for the third section for about page */
+
+.abt-thr-sec{
+    background-image: linear-gradient(rgba(0, 62, 117, 0.745), rgba(0, 62, 117, 0.652)),
+    url(../img/vs_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 1.8rem;
+    border-top-left-radius: 1.8rem;
+    
+}
+
+.abt-thr-sec-text{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    align-items: center;
+}
+
+.abt-thr-sec-text h2{
+    color: #f03c1d;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 4.4rem;
+    margin-top: 3.2rem;
+}
+
+.abt-thr-sec-text p{
+    font-size: 1.8rem;
+    color: #ffffffdb;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.off-col{
+    width: 78.8%;
+    margin: 6.8rem 16rem;
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+    align-items: center;
+
+}
+
+.off-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    padding: 4.4rem;
+    border-radius: 3.2rem;
+    background: rgba(255, 255, 255, 0.182);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 20px 6px #9998984d;
+    border-top: 32px solid #f03d1d39;
+}
+
+
+
+.off-img{
+    width: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+}
+
+
+
+.off-img img{
+    width: 100%;
+}
+
+.off-card span{
+    color: #f03c1d;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.off-card h4{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2.4rem;
+    align-self: center;
+}
+/* codes for the third section for about page */
+
+
