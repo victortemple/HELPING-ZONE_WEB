@@ -1,0 +1,315 @@
+/*colors for the websit theme*/
+/* color:
+#f03c1d 
+#003e75
+*/
+/*colors for the websit theme*/
+
+/*codes for the volunteer page hero section*/
+
+.vol-hero-sec{
+    background-image: linear-gradient(rgba(0, 62, 117, 0.83), rgba(0, 62, 117, 0.764)),
+    url(../img/2-vol-bg.jpg);
+   background-size: cover;
+   background-position: center;
+   border-bottom-right-radius: 1.8rem;
+   border-bottom-left-radius: 1.8rem;
+   padding-bottom: 12.8rem;
+   padding-top: 3.2rem;
+   width: 100%;
+}
+
+.vol-hero-txt{
+    margin-top: 2.8rem;
+}
+
+.vol-hero-txt span{
+    color: #f03c1d;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.vol-hero-h2{
+    font-size: 4.4rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.vol-hero-txt p{
+    color: #ffffffdb;
+    font-size: 1.8rem;
+    width: 60%;
+}
+
+.vol-btn{
+    padding: 1.2rem;
+    text-transform: capitalize;
+    border-radius: 3.2rem;
+    font-size: 1.8rem;
+}
+
+.hero-btn:link, .hero-btn:visited {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    background-color: #f03c1d;
+    border: 2px solid #f03c1d;
+    letter-spacing: 0.8px;
+    transition: 0.5s;
+}
+
+.hero-btn:hover, .hero-btn:active {
+    background: transparent;
+    color: #f03c1d;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.hero-sec-card-flx{
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    position: absolute;
+    top: 105%;
+    left: 8%;
+}
+
+.hero-card{
+    padding: 4.4rem;
+    box-shadow: 1px 9px 18px 6px #84848478;
+}
+
+.card1{
+    background-color: #f03c1d;
+    border-radius: 3.2rem;
+}
+.card2{
+    background-color: #003e75;
+    border-radius: 3.2rem;
+}
+
+.card1 span, .card2 span{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.card1 span{
+    color: #003e75;
+}
+
+.card2 span{
+    color: #f03c1d;
+}
+
+.card1 h3, .card2 h3{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 5.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.card1 a:link, .card1 a:visited{
+    color: #fff;
+    background-color: #003e75;
+    transition: 0.5s;
+    border: 2px solid #003e75;
+}
+
+.card1 a:active, .card1 a:hover{
+    color: #003e75;
+    background: transparent;
+}
+
+.card2 a:link, .card2 a:visited{
+    color: #fff;
+    background-color: #f03c1d;
+    transition: 0.5s;
+    border: 2px solid #f03c1d;
+}
+
+.card2 a:hover, .card1 a:active{
+    color: #f03c1d;
+    background: transparent;
+}
+
+/*codes for the volunteer page hero section*/
+
+/*codes for the volunteer page second section*/
+
+.seccond-sec{
+    padding: 9.8rem 0;
+}
+
+.seccond-sec-card-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 5.4rem;
+    margin-top: 20.8rem;
+}
+
+.seccond-sec-card{
+    border-radius: 3.2rem;
+    box-shadow: 1px 9px 18px 6px #84848478;
+    padding: 2.4rem;
+}
+
+.seccond-sec-icon{
+    color: #f03c1d;
+    font-size: 5.4rem;
+}
+
+.seccond-sec-card h4{
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    color: #003e75;
+}
+
+.seccond-sec-card p{
+    font-size: 1.8rem;
+    color: #003e75;
+}
+
+.count-col{
+    display: grid;
+    gap: 3.2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 7.8rem auto;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numbers p{
+    color: #003e75;
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.numbers span{
+    color: #f03c1d;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.frm-t-gt-col{
+    display: grid;
+    grid-template-columns: 52rem 44rem;
+    gap: 3.8rem;
+    padding: 3.2rem 1.8rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #003e750b;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 4.4rem;
+    box-shadow: 1px 9px 18px 6px #84848478;
+}
+
+.frm-t-gt-col-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 98%;
+    margin: auto 0;
+}
+
+.frm-t-gt-col-txt span{
+  color: #f03c1d;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.frm-t-gt-col-txt h3{
+  color: #003e75;
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.frm-t-gt-col-txt P{
+  color: #003e75;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+#frm-t-gt-str-form-con-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 2.8rem;
+    border-radius: 3.2rem;
+    background-color: #9b9b9b2b;
+    box-shadow: 1px 7px 12px 4px #84848478;
+}
+
+#frm-t-gt-str-form-con-form:hover{
+    transition: 0.5s;
+    box-shadow: 1px 9px 18px 6px #84848478;
+}
+
+#frm-t-gt-str-form-con-form input:nth-child(1),
+#frm-t-gt-str-form-con-form input:nth-child(2),
+#frm-t-gt-str-form-con-form input:nth-child(3){
+    padding: 1.4rem;
+    color: #f03c1d;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 500;
+    border-radius: 3.2rem;
+    outline: 1px solid #0000002e;
+    background: transparent;
+}
+
+#frm-t-gt-str-form-con-form input::placeholder{
+    color: #f03c1d;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#frm-t-gt-str-form-con-form input:nth-child(1):hover,
+#frm-t-gt-str-form-con-form input:nth-child(2):hover,
+#frm-t-gt-str-form-con-form input:nth-child(3):hover{
+    outline: 1px solid #003e75;
+    transition: 0.5s;
+}
+
+#message{
+    height: 9.8rem;
+}
+
+#frm-btn{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 18.5rem;
+    color: #fff;
+    background: #f03c1d;
+    border: 2px solid #f03c1d;
+    transition: 0.5s;
+    outline: none;
+}
+
+#frm-btn:hover{
+    background: transparent;
+    color: #f03c1d;
+}
+
+/*codes for the volunteer page second section*/
+

@@ -15,6 +15,7 @@ html{
     /* box-sizing: border-box; */
     font-family: 'Quicksand', sans-serif;
     font-size: 2.4rem;
+    display: block;
  }
 
  body::-webkit-scrollbar{
@@ -85,6 +86,7 @@ html{
    text-transform: capitalize;
    font-size: 1.8rem;
    border-radius: 3.2rem;
+   letter-spacing: 1px;
 }
    /*for all btn-code*/
 
@@ -160,7 +162,11 @@ a{
 @media(max-width: 768px){
 
 /* for the mobile menu button */
-    
+
+.navbar-toggler-icon{
+   width: 3.2rem !important;
+}
+
 .offcanvas{
    background: transparent;
    backdrop-filter: blur(4px);
@@ -199,9 +205,14 @@ a{
 .active, .hover{
    font-size: 2.4rem;
 }
-   /* for the mobile menu button */
+
+.footer-p{
+   width: 76%;
 }
 
+}
+
+/* for the mobile menu button */
 @media(max-width: 425px){
    html{
       font-size: 48% !important;

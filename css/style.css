@@ -7,14 +7,13 @@
 
 
 .hero-s{
-background-image: linear-gradient(rgba(0, 62, 117, 0.745), rgba(0, 62, 117, 0.652)),
- url(../img/bg-hero_s.jpg);
-background-size: cover;
-background-position: center;
-padding-bottom: 8.8rem;
-border-bottom-right-radius: 1.8rem;
-border-bottom-left-radius: 1.8rem;
-padding-bottom: 12.8rem;
+    background-image: linear-gradient(rgba(0, 62, 117, 0.745), rgba(0, 62, 117, 0.652)),
+    url(../img/bg-hero_s.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom-right-radius: 1.8rem;
+    border-bottom-left-radius: 1.8rem;
+    padding-bottom: 12.8rem;
 }
 
 /*for the hero section texts-code*/
@@ -51,7 +50,7 @@ padding-bottom: 12.8rem;
 
 .hr-p-text{
     font-size: 2rem;
-    color: #fff;
+    color: #ffffffdb;
     text-align: center;
     width: 80%;
     margin: 0 auto;

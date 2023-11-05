@@ -1,0 +1,117 @@
+
+/*mobilennresponsiveness codes*/
+
+@media(max-width: 1024px){
+
+    html{
+        font-size: 48% !important;
+    }
+
+    .vol-hero-txt p{
+        width: 90%;
+    }
+
+    .hero-sec-card-flx{
+        width: 90%;
+        left: 5%;
+    }
+
+    }
+
+@media (max-width: 768px){
+    html{
+        font-size: 38% !important;
+    }
+
+    /* .card1 h3, .card2 h3{
+        font-size: 3.2rem;
+    } */
+
+    .footer-p{
+        width: 48% !important;
+    }
+
+    .vol-hero-txt p{
+        width: 66%;
+    }
+
+}
+
+@media (max-width: 426px){
+   
+    .seccond-sec-card-col{
+        grid-template-columns: 1fr !important;
+    }
+
+    .frm-t-gt-col{
+        grid-template-columns: 1fr;
+    }
+
+    .hero-sec-card-flx{
+        position: unset;
+        flex-direction: column;
+    }
+
+    .vol-hero-txt p{
+        width: fit-content;
+    }
+
+    .vol-hero-h2{
+        font-size: 3.2rem;
+    }
+
+    .card1 h3, .card2 h3{
+        font-size: 3.8rem;
+    }
+
+    .btn{
+        font-size: 2.4rem;
+    }
+
+    .vol-hero-txt p,
+    .seccond-sec-card p,
+    .frm-t-gt-col-txt P{
+        font-size: 2.4rem;
+    }
+
+    #frm-btn{
+        left: 25.6rem;
+    }
+
+    .footer-p{
+        width: 82% !important;
+    }
+
+}
+
+@media(max-width: 376px){
+
+    .vol-hero-txt p, .seccond-sec-card p, .frm-t-gt-col-txt P,
+    .footer-p{
+        font-size: 1.8rem !important;
+    }
+
+    #frm-btn {
+        left: 16.6rem !important;
+    }
+    .footer-cnt p {
+        font-size: 1.4rem !important;
+    } 
+}
+
+@media(max-width: 321px){
+
+    .count-col{
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .footer-p{
+        width: 85% !important;
+    }
+
+    .footer-cnt p {
+        font-size: 1rem !important;
+    } 
+}
+    
+    /*mobilennresponsiveness codes*/

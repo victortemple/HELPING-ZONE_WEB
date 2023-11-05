@@ -1,63 +1,157 @@
 @media(max-width: 1024px){
-    .container, .container-lg, .container-md, .container-sm{
-        max-width: 1027px !important;
+    .abt-hero-sec-text p{
+        width: 100%;
     }
 
-    .abt-det-flex1,
-    .card-con{
-        width: 90%;
+    .abt-hero-sec-text-btn:link,
+    .abt-hero-sec-text-btn:visited{
+        margin-left: 55.8rem;
     }
 
-    .left{
-        left: 34%;
-    }
-}
-
-@media(max-width: 768px){
-    .abt-hero-sec-text-p{
-        width: 90%;
-    }
-
-    .abt-det-flex1{
+    .abt-snd-sec-text-flex{
         flex-direction: column;
     }
 
-    .abt-det-img-con {
+    .abt-snd-sec-text-flex-img{
+        margin: 0;
         width: 50%;
     }
 
-    .abt-det-text{
-        width: 100%;
+}
+
+@media(max-width: 768px){
+    .abt-snd-sec-card{
+        grid-template-columns: 1fr;
     }
 
-    .card-con{
-        width: 58%;
-        flex-direction: column;
-        overflow-x: none;
-        overflow-y: scroll;
-        height: 49.8rem;
-    }
-
-    .abt-story-text p{
-        width: 100%;
-    }
-
-    .officials-con2{
+    .off-col{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 3.2rem;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 3.2rem;
     }
 
-    .border-left{
-       border-left: none;
+    .abt-snd-sec-text-flex-txt{
+        width: 62rem;
     }
 
-    .border-right{
-        border-radius: 1.8rem;
-       border-top: 2rem solid #003e755a;
-       border-bottom: 2rem solid #003e755a;
-       border-right: none;
-       backdrop-filter: blur(2px);
+    .off-card{
+        padding: 3.2rem;
     }
 
+    .abt-thr-sec-text p{
+        width: 100%;
+    }
+}
+
+@media(max-width: 426px){
+    html{
+        font-size: 38% !important;
+    }
+   
+    .abt-hero-sec-text-btn:link, .abt-hero-sec-text-btn:visited{
+        margin-left: 47.8rem;
+    }
+
+    .abt-snd-sec-text-flex{
+        width: 90%;
+    }
+
+    .abt-snd-sec-text-flex-txt{
+        width: 58rem;
+    }
+
+    .off-card span{
+        font-size: 4.4rem;
+    }
+
+    .off-card h4{
+        font-size: 3.2rem;
+    }
+
+    .off-col{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 376px){
+    .abt-hero-sec-text-btn:link, .abt-hero-sec-text-btn:visited{
+        margin-left: 29.8rem;
+    }
+
+    .abt-snd-sec-text-flex-txt{
+        width: 45rem;
+    }
+
+    .off-card span{
+        font-size: 3.2rem;
+    }
+
+    .footer-p{
+        font-size: 1.8rem !important;
+    }
+
+    .footer-cnt p{
+        font-size: 1.4rem !important;
+    }
+}
+
+@media(max-width: 321px){
+
+    .abt-hero-sec-text-h2{
+        font-size: 3.2rem;
+    }
+
+    .abt-hero-sec-text p{
+        font-size: 1.6rem;
+    }
+
+    .abt-hero-sec-text-btn:link, .abt-hero-sec-text-btn:visited{
+        margin-left: 23.8rem;
+    }
+
+    .abt-snd-sec-text-flex-txt h3{
+        font-size: 1.8rem;
+    }
+
+    .abt-snd-sec-text-flex-txt p{
+        font-size: 1.6rem;
+    }
+
+    .abt-snd-sec-text-flex-txt{
+        width: 38rem;
+    }
+
+    .abt-snd-sec-card-con h3{
+        font-size: 2.4rem;
+    }
+
+    .card-txt h4{
+        font-size: 1.8rem;
+    }
+
+    .card-txt p{
+        font-size: 1.6rem;
+    }
+
+    .abt-thr-sec-text h2{
+        font-size: 2.4rem;
+    }
+
+    .abt-thr-sec-text p{
+        font-size: 1.6rem;
+    }
+
+    .off-card span{
+        font-size: 2rem;
+    }
+
+    .footer-p{
+        font-size: 1.4rem !important;
+    }
+
+    .footer-cnt p{
+        font-size: 1.2rem !important;
+    }
 }
