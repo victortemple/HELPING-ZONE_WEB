@@ -1,0 +1,77 @@
+@media(max-width: 1024px){
+    .footer-p{
+        width: 52% !important;
+    }
+}
+
+@media(max-width: 768px){
+    
+    .vs-hero-sec-text-p{
+        width: 90%;
+    }
+
+    .footer-p{
+        width: 68% !important;
+    }
+}
+
+@media(max-width: 426px){
+    html{
+        font-size: 38% !important;
+    }
+
+    /* .vs-hero-sec-btn{
+        left: 69%;
+    } */
+
+    .footer-p{
+        font-size: 2.4rem !important;
+    }
+}
+
+@media(max-width: 376px){
+   
+    .vs-hero-sec-btn{
+        left: 78%;
+    }
+
+    .footer-p{
+        font-size: 1.8rem !important;
+        width: 72% !important;
+    }
+
+    .vs-hero-sec-text-h2{
+        font-size: 3.2rem;
+    }
+    
+}
+
+@media(max-width: 321px){
+    html{
+        font-size: 24% !important;
+    }
+
+    .vs-hero-sec-btn{
+        left: 73%;
+    }
+
+    .vs-hero-sec-text-h2{
+        font-size: 2.4rem;
+    }
+
+    .vs-hero-sec-text-p{
+        font-size: 1.6rem;
+    }
+
+    .btn{
+        font-size: 1rem !important;
+    }
+
+    .footer-p{
+        font-size: 1.4rem !important;
+    }
+
+    .footer-cnt p{
+        font-size: 1.2rem !important;
+    }
+}
