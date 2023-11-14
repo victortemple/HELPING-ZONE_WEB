@@ -6,14 +6,22 @@
 /********************************************/
 
 
-.hero-s{
-    background-image: linear-gradient(rgba(0, 62, 117, 0.745), rgba(0, 62, 117, 0.652)),
-    url(../img/bg-hero_s.jpg);
-    background-size: cover;
-    background-position: center;
-    border-bottom-right-radius: 1.8rem;
-    border-bottom-left-radius: 1.8rem;
-    padding-bottom: 12.8rem;
+#background-video{
+    position: absolute;
+    left: 50%;
+    width: 100vw;
+    height: 100rem;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-position: center;
+    object-fit: cover;
+    border-bottom-left-radius: 3.2rem;
+    border-bottom-right-radius: 3.2rem;
+}
+
+
+.z_index{
+    z-index: 1;
 }
 
 /*for the hero section texts-code*/
@@ -142,7 +150,7 @@
 .vid{
     width: 90%;
     margin: 0 auto;
-    margin-top: 24.8rem;
+    margin-top: 41.8rem;
    
 }
 
