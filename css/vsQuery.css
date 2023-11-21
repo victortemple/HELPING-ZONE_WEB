@@ -1,7 +1,27 @@
+@media(max-width: 2560px){
+    .vs-hero-sec-btn{
+        position: relative;
+        left: 89%;
+        margin-bottom: 3.2rem;
+    }
+}
+
+@media(max-width: 1440px){
+    .vs-hero-sec-btn{
+        left: 89%;
+    }
+    
+}
+
 @media(max-width: 1024px){
     .footer-p{
         width: 52% !important;
     }
+
+    .vs-hero-sec-btn{
+        left: 85%;
+    }
+
 }
 
 @media(max-width: 768px){
@@ -13,6 +33,11 @@
     .footer-p{
         width: 68% !important;
     }
+
+    .vs-hero-sec-btn{
+        left: 80%;
+    }
+
 }
 
 @media(max-width: 426px){
@@ -20,19 +45,23 @@
         font-size: 38% !important;
     }
 
-    /* .vs-hero-sec-btn{
-        left: 69%;
-    } */
+    .vs-hero-sec-btn {
+        left: 76%;
+    }
 
     .footer-p{
         font-size: 2.4rem !important;
+    }
+
+    .vs-hero-sec-text-p{
+        font-size: 1.6rem;
     }
 }
 
 @media(max-width: 376px){
    
     .vs-hero-sec-btn{
-        left: 78%;
+        left: 70%;
     }
 
     .footer-p{
@@ -52,7 +81,7 @@
     }
 
     .vs-hero-sec-btn{
-        left: 73%;
+        left: 64%;
     }
 
     .vs-hero-sec-text-h2{

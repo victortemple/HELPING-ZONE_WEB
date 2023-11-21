@@ -43,7 +43,13 @@
     .abt-thr-sec-text p{
         width: 100%;
     }
-}
+
+    .footer-cnt p {
+        font-size: 1.2rem !important;
+    }
+
+     }
+
 
 @media(max-width: 426px){
     html{
@@ -73,6 +79,18 @@
     .off-col{
         grid-template-columns: 1fr;
     }
+
+    .footer-p{
+        font-size: 1.8rem !important;
+       }
+
+       .abt-hero-sec-text p,
+       .abt-snd-sec-text-flex-txt p,
+       .abt-thr-sec-text p,
+       .card-txt p{
+        font-size: 1.6rem;
+       }
+
 }
 
 @media(max-width: 376px){

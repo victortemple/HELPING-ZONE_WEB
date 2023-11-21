@@ -1,0 +1,375 @@
+/* the color teme for the webpage designgs */
+/* color:
+#f03c1d 
+#003e75
+*/
+/********************************************/
+
+/* codes for the contact us hero page */
+
+#background-video{
+    position: absolute;
+    left: 50%;
+    width: 100vw;
+    height: 100rem;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-position: center;
+    object-fit: cover;
+    border-bottom-left-radius: 3.2rem;
+    border-bottom-right-radius: 3.2rem;
+}
+
+
+.z_index{
+    z-index: 1;
+}
+
+.hero-sec-cnt--txt-flx-con{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4.4rem;
+}
+.hero-sec-cnt--txt-flx-con{
+    display: flex;
+    gap: 4.4rem;
+}
+
+.hero-sec-cnt--txt span{
+    color: #f03c1d;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.hero-sec-cnt--txt h2{
+    text-transform: capitalize;
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero-sec-cnt--txt p{
+    font-size: 1.8rem;
+    color: #ffffff71;
+}
+
+#form{
+    padding: 1.8rem;
+    border: 2px solid #f03d1d71;
+    border-radius: 3.2rem;
+    background-color: #ffffff3c;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 104rem;
+    backdrop-filter: blur(8\px);
+}
+
+#feedBack{
+    font-size: 1.8rem;
+    color: #f03d1d;
+    margin-bottom: 1rem;
+}
+
+#yourNmame,
+#messageToH{
+    text-transform: capitalize;
+}
+
+#yourNmame,
+#yourEmail,
+#messageToHz{
+    padding: 1rem;
+    background: #ffffff71;
+    outline: none;
+    border: 2px solid #ffffff00;
+    border-radius: 3.2rem;
+    color: #f03c1d;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#yourNmame::placeholder,
+#yourEmail::placeholder{
+    color: #f03d1d71;
+}
+
+#subBtn {
+    border: 2px solid #f03c1d;
+    background: #f03c1d;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 3.2rem;
+    transition: 0.5s;
+    width: 50%;
+    font-size: 1.8rem;
+    position: relative;
+    left: 50%;
+}
+
+#subBtn:hover{
+    background: transparent;
+    color: #f03c1d;
+}
+/* codes for the contact us hero page */
+
+
+/* codes for the contact us second section */
+
+body{
+    background-color: #a9a8a832;
+}
+
+.cnt-info-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5.8rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 5.2rem 1fr;
+    gap: 1.4rem;
+    border-radius: 3.2rem;
+    padding: 1.8rem;
+    box-shadow: 1px 9px 18px 6px #84848478;
+}
+
+i{
+    color: #003e75;
+    font-size: 5.2rem;
+    width: 90%;
+    margin: auto 0;
+}
+
+.card-txt span{
+    color: #f03c1d;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card-txt p{
+    color: #003e75;
+    font-size: 1.8rem;
+}
+
+.cnt-det-off-det{
+    margin: 0 auto;
+    margin-top: 5.8rem;
+    width: 90%;
+    display: flex;
+    gap: 10rem;
+}
+
+.cnt-det-off-det-time{
+    width: 100rem;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3.2rem;
+    background: #f03c1d;
+    position: relative;
+}
+
+.cnt-det-off-det-time::after{
+    content: "hours";
+    background: #003e75;
+    padding: 1.2rem 2.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    color: #fff;
+    border-radius: 3.2rem;
+    width: fit-content;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 26rem;
+    left: 13.5rem;
+}
+
+.op-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.op-time span{
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.op-time p{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 700;
+}
+
+.cnt-det-off-det-txt{
+    color: #003e75;
+}
+
+.cnt-det-off-det-txt h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.cnt-det-off-det-txt p{
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.cnt-det-off-det-txt-btn:link,
+.cnt-det-off-det-txt-btn:link{
+    background: #f03c1d;
+    color: #fff;
+    border: 2px solid #f03c1d;
+    transition: 0.5s;
+}
+
+.cnt-det-off-det-txt-btn:hover,
+.cnt-det-off-det-txt-btn:active{
+    background: transparent;
+    color: #f03c1d;
+}
+
+/* codes for the contact us second section */
+
+/* codes for the contact us third section */
+
+.third-sec{
+    margin-bottom: 5.4rem;
+}
+
+.faq{
+    margin: 0 auto;
+    margin-top: 5.4rem;
+    width: 90%;
+}
+
+.faq span{
+    color: #f03c1d;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.faq h3{
+    color: #003e75;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 4.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.faq-flex-con-txt h4{
+    color: #003e75;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.faq-flex-con-txt p{
+    color: #003e75;
+    font-size: 1.6rem;
+}
+
+.faq-col-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.4rem;
+}
+
+.faq-qu-txt-con{
+    display: flex;
+    gap: 7.4rem;
+}
+
+.faq-qu-txt{
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.faq-qu-txt strong{
+    color: #003e75;
+    font-size: 1.4rem;
+}
+
+.faq-qu-icons i{
+    color: #f03c1d;
+    font-size: 1.6rem;
+}
+
+#faq-form{
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border-radius: 3.2rem;
+    border: 6px solid #f03d1d36;
+    backdrop-filter: blur(10px);
+}
+
+#askerName,
+#askerEmail,
+#question{
+    outline: none;
+    border-bottom: 4px solid #003e75;
+    background: #ffffff01;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 1.2rem;
+    color: #003e75;
+}
+
+#askerName::placeholder,
+#askerEmail::placeholder,
+#question::placeholder{
+    text-transform: capitalize;
+    color: #003e75;
+}
+
+#askerName,
+#question{
+    text-transform: capitalize;
+}
+
+#question{
+    margin-top: 3.2rem;
+    height: 10rem;
+}
+
+.subFaqBtn{
+    background: #f03c1d;
+    border: 2px solid #f03c1d;
+    border-radius: 3.2rem;
+    color: #fff;
+    padding: 5px 5.4rem;
+    width: fit-content;
+    font-weight: 700;
+    position: relative;
+    left: 64%;
+    margin-top: 2.4rem;
+    transition: 0.5s;
+}
+
+.subFaqBtn:hover{
+    background: transparent;
+    color: #f03c1d;
+}
+/* codes for the contact us third section */
