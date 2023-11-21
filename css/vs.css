@@ -56,12 +56,6 @@
     color: #f03c1d;
 }
 
-.vs-hero-sec-btn{
-    position: relative;
-    left: 85%;
-    margin-bottom: 3.2rem;
-}
-
 .vs-btn-con{
     display: flex;
     gap: 2.4rem;

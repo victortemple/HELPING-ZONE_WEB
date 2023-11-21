@@ -164,6 +164,10 @@ a{
 
 /* for the mobile menu button */
 
+#background-video{
+   height: 110rem !important;
+}
+
 .navbar-toggler-icon{
    width: 3.2rem !important;
 }
@@ -183,7 +187,7 @@ a{
 }
 
 .navbar-toggler{
-   width: 4.4rem !important;
+   width: 5.4rem !important;
    height: 4.4rem !important;
 }
 

@@ -1,0 +1,112 @@
+@media(max-width: 1440px){
+    html{
+        font-size: 90% !important;
+    }
+    .hero-sec-evt-txt-p{
+        width: 80%;
+    }
+}
+
+
+@media(max-width: 768px){
+    html{
+        font-size: 44% !important;
+    }
+
+}
+
+@media(max-width: 425px){
+    html{
+        font-size: 38% !important;
+    }
+
+    .hero-sec-evt-txt-p{
+        width: fit-content;
+    }
+
+    .card-details{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-details-txt{
+        grid-column: -3/-1;
+        width: 100%;
+    }
+
+    .evts-details-flex-box{
+        height: 107rem;
+    }
+
+    .card-details{
+        width: 90%;
+    }
+
+    .evts-details-flex-box{
+        width: fit-content;
+    }
+
+    #form{
+        width: 100%;
+        padding: 1.8rem;
+    }
+
+    .footer-p{
+        font-size: 1.8rem !important;
+    }
+
+    .footer-cnt p{
+        font-size: 1.4rem !important;
+    }
+
+    .sub-flx{
+        width: 100%;
+    }
+}
+
+@media(max-width: 375px){
+    .hero-sec-evt-txt-h2,
+    .sub-flx h3{
+        font-size: 3.2rem;
+    }
+
+    .card-details-txt span{
+        font-size: 1.2rem;
+    }
+    
+        .card-details-txt h3{
+            font-size: 1.8rem;
+        }
+
+    .hero-sec-evt-txt-p,
+    .card-details-txt p{
+        font-size: 1.6rem;
+    }
+
+    .hero-sec-evt-txt-btn:link, .hero-sec-evt-txt-btn:visited{
+        margin-top: 3.2rem;
+    }
+}
+
+@media(max-width: 320px){
+    .card-details-img{
+        width: 19rem;
+    }
+
+    .card-details{
+        gap: 3.2rem;
+    }
+
+    .form-con{
+        width: 115%;
+    margin: 0 -3rem;
+    }
+
+    .footer-p {
+        width: 100% !important;
+    }
+
+    .footer-cnt p {
+        font-size: 1.2rem !important;
+    }
+}
