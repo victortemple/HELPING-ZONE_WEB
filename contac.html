@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Zone | Contact Us</title>
+<!-- external css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!-- external css link -->
+<!-- costume css link -->
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/contactQuery.css">
+  <link rel="stylesheet" href="./css/general.css">
+<!-- costume css link -->
+</head>
+<body>
+    
+    <section class="hero-sec-cnt">
+
+        <video id="background-video" autoplay loop muted>
+            <source src="./video/vid_for_contact_us.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="container z_index">
+
+            <header class="nav-header">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="img/project-logo.png" alt="Helping Zone Logo" width="90%" style="margin: 0 auto;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end mr-bg-dark offcanvas-mr-bg" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Helping Zone</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1">
+                          <li class="nav-item">
+                            <a class="nav-link hover" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link hover" href="about.html">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link hover" href="vs.html">Volunteer/Sponsorer ?</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link hover"  href="events.html">Events</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contac.html">Contact Us</a>
+                          </li>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </header>
+        
+              <div class="hero-sec-cnt--txt-flx-con">
+
+                <div class="hero-sec-cnt--txt">
+
+                    <span>contact</span>
+                    <h2>
+                        get <br> in touch
+                    </h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laborum explicabo beatae impedit amet numquam, 
+                        tenetur distinctio in laboriosam debitis vero quibusdam totam ducimus dolorem fugiat? Esse eligendi doloremque officiis?
+                    </p>
+
+                </div>
+
+                <form action="#" id="form">
+                    <p id="feedBack">=><=</p>
+                    <input type="text" name="name" id="yourNmame" placeholder="your name">
+                    <input type="email" name="email" id="yourEmail" placeholder="your email">
+                    <input type="text" name="message" id="messageToHz" placeholder="message" cols="50" rows="5">
+                    <button type="button" id="subBtn" onclick="validateForm()">submit</button>
+                </form>
+
+              </div>
+
+              <div class="cnt-info-col">
+
+                <div class="card">
+                  <i class='bx bxl-gmail'></i>
+                  <div class="card-txt">
+                    <span>email</span>
+                    <p>sampleemai@gmail.com</p>
+                  </div>
+                </div>
+      
+                <div class="card">
+                  <i class='bx bxs-mobile' ></i>
+                  <div class="card-txt">
+                    <span>phone</span>
+                    <p>+234 906 5495 605</p>
+                  </div>
+                </div>
+      
+                <div class="card span-across">
+                  <i class='bx bx-current-location' ></i>
+                  <div class="card-txt">
+                    <span>address</span>
+                    <p>@our office, close 25</p>
+                  </div>
+                </div>
+      
+              </div>
+
+        </div>
+    </section>
+
+    <section class="snd-sec">
+      <div class="container">
+        <div class="cnt-det-off-det">
+          <div class="cnt-det-off-det-txt">
+            <h3>visit our office or <br> branches</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ducimus a libero eum laboriosam, 
+              repellendus error quia odit iste exercitationem nisi voluptatem tempore molestias labore recusandae
+              vero tenetur corrupti saepe.
+            </p>
+            <a href="#" class="btn cnt-det-off-det-txt-btn">get directions</a>
+          </div>
+
+          <div class="cnt-det-off-det-time">
+
+            <div class="op-time" style="margin-top: 4.4rem;">
+              <span>monday-friday</span>
+              <p>9:00am-7:30pm</p>
+            </div>
+
+            <div class="op-time">
+              <span>saturday</span>
+              <p>11:00am-5:00pm</p>
+            </div>
+
+            <div class="op-time">
+              <span>sunday</span>
+              <p>12:00pm-4:30pm</p>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="third-sec">
+      <div class="container">
+        <div class="faq">
+
+          <span>faq</span>
+          <h3>frequently asked questions</h3>
+
+          <div class="faq-col-con">
+
+            <div class="faq-flex-con-txt">
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, reprehenderit nisi. In velit 
+                expedita nobis, ullam eum nemo libero enim provident consequuntur! Sint iusto ducimus quaerat? 
+                Eius maxime eaque similique.
+              </p>
+
+                <div class="faq-qu-txt-con">
+                  <div class="faq-qu-txt">
+                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing</strong>
+                  <strong>Lorem ipsum dolor sit amet consectetur</strong>
+                  <strong>Lorem ipsum dolor sit amet consectetur adipisicing</strong>
+                  <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit</strong>
+                  <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong>
+                  <strong>Lorem ipsum dolor sit amet consectetur</strong>
+                  </div>
+
+                  <div class="faq-qu-icons">
+                  
+                    <i class='bx bxs-comment-check' ></i>
+                    <i class='bx bxs-comment-check' ></i>
+                    <i class='bx bxs-comment-check' ></i>
+                    <i class='bx bxs-comment-check' ></i>
+                    <i class='bx bxs-comment-check' ></i>
+                    <i class='bx bxs-comment-check' ></i>
+  
+                  </div>
+
+                  </div>
+
+            </div>
+
+            <form action="#" id="faq-form">
+              <input type="text" name="yourName" id="askerName" placeholder="your name">
+              <input type="email" name="yourEmail" id="askerEmail" placeholder="your email">
+              <input type="text" name="question" id="question" value="What's Your Question?">
+              <button type="button" class="subFaqBtn">submit</button>
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-flex">
+          <div class="footer-p">
+            <p>join our mission. volunteer. <br> donate. advocate. get started</p>
+          </div>
+          <div class="footer-cnt">
+            <p><i class='bx bxl-gmail footer-icon' style='color:#ffffff' ></i> sampleemail@gmail.com</p>
+            <p><i class='bx bxs-phone-call footer-icon' style='color:#ffffff' ></i> call +2349 0654 5905</p>
+          </div>
+          <hr style="color: #ffffff43; width: 100%; border: 1px solid #ffffff;">
+          <span class="copy-right">&copy;made with <i class='bx bx-heart-circle' style="font-size: 1.6rem; color: #f03d1d80;" ></i>.designed by ivebinhavin dajavu</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./javascript/contact.js" charset="UTF-8"></script>
+</body>
+</html>
